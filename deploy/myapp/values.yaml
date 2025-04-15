@@ -2,8 +2,8 @@
 
 # Docker image details
 image:
-  repository: myapp
-  tag: 1.43
+  repository: "echuwok12/argotest"
+  tag: "v1.48"
   imagePullPolicy: IfNotPresent
 
 # Replicas of your application in the Kubernetes cluster
