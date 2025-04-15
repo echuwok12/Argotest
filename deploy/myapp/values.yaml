@@ -2,7 +2,7 @@
 
 # Docker image details
 image:
-  repository: localhost:5000
+  repository: localhost:5000/myapp
   tag: 1.33
   imagePullPolicy: Never
 
