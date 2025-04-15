@@ -2,8 +2,8 @@
 
 # Docker image details
 image:
-  repository: myapp
-  tag: 1.35
+  repository: localhost:5000/myapp
+  tag: 1.38
   imagePullPolicy: Never
 
 # Replicas of your application in the Kubernetes cluster
