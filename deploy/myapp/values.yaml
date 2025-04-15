@@ -2,9 +2,9 @@
 
 # Docker image details
 image:
-  repository: myapp
+  repository: localhost:5000
   tag: 1.33
-  imagePullPolicy: IfNotPresent
+  imagePullPolicy: Never
 
 # Replicas of your application in the Kubernetes cluster
 replicaCount: 1
