@@ -4,7 +4,7 @@
 image:
   repository: myapp
   tag: 1.28
-  pullPolicy: Never
+  imagePullPolicy: IfNotPresent
 
 # Replicas of your application in the Kubernetes cluster
 replicaCount: 1
