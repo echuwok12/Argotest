@@ -3,7 +3,7 @@
 # Docker image details
 image:
   repository: myapp
-  tag: 1.33
+  tag: 1.34
   imagePullPolicy: Never
 
 # Replicas of your application in the Kubernetes cluster
