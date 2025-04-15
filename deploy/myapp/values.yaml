@@ -1,8 +1,25 @@
+# Default values for myapp.
+
+# Docker image details
 image:
   repository: myapp
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
+# Replicas of your application in the Kubernetes cluster
+replicaCount: 1
+
+# Kubernetes service settings
 service:
+  name: myapp-service
   type: ClusterIP
   port: 80
+  targetPort: 8080
+
+# Environment settings (to be injected into containers)
+environment: production
+
+# Helm values for application deployment
+deployment:
+  name: myapp-deployment
+  namespace: default
