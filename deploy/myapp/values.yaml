@@ -3,7 +3,7 @@
 # Docker image details
 image:
   repository: "myapp"
-  tag: "v1.50"
+  tag: "v1.52"
   imagePullPolicy: IfNotPresent
 
 # Replicas of your application in the Kubernetes cluster
